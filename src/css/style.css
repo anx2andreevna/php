@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Merriweather&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  font-family: "Gloock";
+}
+a{
+    text-decoration: none;
+}
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1000vh;
+  width: 100%;  
+}
+.header__title{
+    font-family: "Merriweather";
+    margin-left: 41%;
+}
+.header__img{
+    width: 367px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 100px;
+    margin: 0 auto;
+    max-width: 60%;
+    padding-top: 100px;
+}
+.card__img{
+    max-width: 500px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.card__content{
+    max-width: 500px;
+    margin-top: 20px;
+    margin-bottom: 34px;
+
+}
+.card__link{
+    background-color: black;
+    color: #F2F8F8;
+    font-family: "Gloock";
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-left: 40%;
+    transition-duration: .3s;
+}
+.card__link:hover{
+    background-color: grey;
+}
+.footer{
+    font-size: 28px;
+    font-family: "Merriweather";
+    justify-content: center;
+    display: flex;
+    margin-top: 172px;
+    margin-bottom: 100px;
+}
