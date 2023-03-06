@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Merriweather&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+    font-family: "Merriweather";
+}
+a{
+    text-decoration: none;
+}
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1000vh;
+  width: 100%;  
+}
+.header__title{
+    margin-left: 41%;
+}
+.header__img{
+    width: 367px;
+}
+.form__form{
+    margin-top: 90px;
+}
+.form{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    max-width: 525px;
+    background: #FFFFFF;
+    box-shadow: 8px 25px 90px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: 3px solid #435588;
+    font-size: 18px;
+}
+.form__label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 60px;
+    font-size: 18px;
+}
+.label__input {
+    outline: none;
+    margin-top: 6px;
+    background: #F7F7F8;
+    border-radius: 100px;
+    border: 2px solid #435588;
+    padding: 10px 98px 10px 22px;
+    font-family: "Merriweather";
+    line-height: 24px;
+}
+  
+.label__input::placeholder {
+    color: #8B8B8B;
+    font-weight: 400;
+    font-size: 16px;
+  
+}
+.label__select{
+    outline: none;
+    margin-top: 6px;
+    background: #F7F7F8;
+    border-radius: 100px;
+    padding: 10px 98px 10px 22px;
+    font-family: "Merriweather";
+    line-height: 24px;
+    color: #8B8B8B;
+    font-weight: 400;
+    font-size: 16px;
+    border: 2px solid #435588;
+}
+.label__textarea{
+    outline: none;
+    margin-top: 6px;
+    border: 2px solid #435588;
+    border-radius: 12px;
+    padding: 20px;
+    font-family: "Merriweather";
+    font-weight: 400;
+    font-size: 16px;
+}
+.form__checkbox{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-left: 60px;
+    font-size: 18px;
+    padding-top: 40px;
+}
+.checkbox__input{
+    margin-right: 15px;
+  }
+.form__button{
+    display: block;
+    margin: 60px auto;
+    background: #435588;
+    border: 1px solid #435588;
+    border-radius: 100px;
+    padding: 13px 54px 11px 58px;
+    font-family: "Merriweather";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    transition-duration: .3s;
+}
+.form__button:hover, .form__button:active, .form__button:focus {
+    color: #435588;
+    background-color: #F7F5FF;
+    border: 1px solid #435588;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    text-decoration: underline;
+    color: #551a8b;
+}
+.wrapper__function{
+    display: flex;
+    justify-content: center;
+}
+.function__textarea{
+    padding: 40px;
+    background: #FFFFFF;
+    box-shadow: 1px 20px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: 2px solid #435588;
+    margin-top: 150px;
+}
+.footer{
+    font-size: 24px;
+    justify-content: center;
+    display: flex;
+    margin-top: 172px;
+    margin-bottom: 100px;
+}
