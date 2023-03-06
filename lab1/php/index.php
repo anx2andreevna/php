@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="header wrapper">
-            <img src="img/logo_poly.png" alt="logo" class="header__img">
+            <img src="../img/logo_poly.png" alt="logo" class="header__img">
             <h1 class="header__title">ДЗ №1 Hello, World!</h1>
         </div> 
     </header>
