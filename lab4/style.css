@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Merriweather&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+    font-family: "Merriweather";
+}
+a{
+    text-decoration: none;
+}
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1000vh;
+  width: 100%;  
+}
+.header__title{
+    text-align: center;
+}
+.header__img{
+    width: 367px;
+}
+.equation{
+    margin-top: 150px;
+}
+.equation__heading{
+    text-align: center;
+    font-size: 20px;
+}
+.equation__form{
+    display: block;
+    margin: 0 auto;
+    margin-top: 36px;
+    margin-bottom: 60px;
+    max-width: 525px;
+    background: #FFFFFF;
+    box-shadow: 8px 10px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: 3px solid #435588;
+    font-size: 18px;
+}
+.form__input {
+    outline: none;
+    margin: 40px 126px 0px;
+    background: #F7F7F8;
+    border-radius: 100px;
+    border: 2px solid #435588;
+    padding: 10px;
+    font-family: "Merriweather";
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+}
+  
+.form__input::placeholder {
+    color: #8B8B8B;
+    font-weight: 400;
+    font-size: 18px;
+  
+}
+.form__button{
+    display: block;
+    margin: 30px auto 40px;
+    background: #435588;
+    border: 1px solid #435588;
+    border-radius: 100px;
+    padding: 13px 54px 11px 58px;
+    font-family: "Merriweather";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    transition-duration: .3s;
+}
+.form__button:hover, .form__button:active, .form__button:focus {
+    color: #435588;
+    background-color: #F7F5FF;
+    border: 1px solid #435588;
+}
+.equation__answer{
+    font-size: 20px;
+    text-align: center;
+}
+.footer{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 152px;
+    margin-bottom: 100px;
+}
