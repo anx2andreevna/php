@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Merriweather&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+    font-family: "Merriweather";
+}
+a{
+    text-decoration: none;
+}
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1000vh;
+  width: 100%;  
+}
+.header__title{
+    text-align: center;
+}
+.header__img{
+    width: 367px;
+}
+.calculator{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    width: 406px;
+    padding: 34px 15px;
+    background-color: #054A91;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.label{
+    color: white;
+    font-size: 30px;
+}
+.screen{
+    width: 370px;
+    height: 64px;
+    background: #6090BF;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 22px;
+    font-family: "Merriweather";
+}
+.container{
+    display: flex;
+    margin-top: 12px;
+    gap: 17px;
+}
+.result{
+    width: 258px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.reset{
+    width: 97px;
+    height: 64px;
+    background: #E6AC77;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    border: none;
+    transition-duration: 0.2s;
+}
+.buttons{
+    margin-top: 40px;
+    display: grid;
+    grid-template-areas: 
+    "seven eight nine plus"
+    "four five six minus"
+    "one two three devision"
+    "zero opening-bracket closing-bracket multi"
+    "equal equal equal ...";
+    grid-row-gap: 15px; 
+    grid-column-gap: 20px;
+}
+.btn{
+    width: 75px;
+    height: 75px;
+    background: #AEC4DE;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 75px;
+    color: #6090BF;
+    transition-duration: 0.2s;
+}
+.btn:hover{
+    filter:brightness(110%)
+}
+.btn:active{
+    filter:brightness(90%)
+}
+button:hover{
+    filter:brightness(110%)
+}
+button:active{
+    filter:brightness(90%)
+}
+.operator{
+    background: #F17300;
+    color: white;
+}
+.multi{
+    padding-top: 10px;
+}
+.equal{
+    height: 64px;
+    background: #F17300;
+    border-radius: 20px;
+    color: white;
+    font-size: 2.5rem;
+    border: none;
+    transition-duration: 0.2s;
+}
+.footer{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 152px;
+    margin-bottom: 100px;
+}
